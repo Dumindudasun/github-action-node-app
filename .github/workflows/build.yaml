@@ -26,5 +26,5 @@ jobs:
           context: ./
           push: true
           tags: |
-                dumindudasun/dumindudasun/github-action:${{ env.SHORT_SHA }}
-                dumindudasun/dumindudasun/github-action:latest
+                dumindudasun/github-action:${{ env.SHORT_SHA }}
+                dumindudasun/github-action:latest
